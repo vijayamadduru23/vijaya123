@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IPL Teams Collage</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('images/ipl.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .collage-container {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .collage-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .collage-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+      height:150px;
+      width:150px
+    }
+
+    .collage-grid img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="collage-container">
+    <h1>IPL 2025 Teams</h1>
+    <div class="collage-grid">
+      <a href="csk.html">
+        <img src="images/csk.jpg" alt="CSK">
+      </a>
+      <a href="mi.html">
+        <img src="images/mi.jpg" alt="MI">
+      </a>
+      <a href="rr.html">
+        <img src="images/rr.jpg" alt="RR">
+      </a>
+      
+      <a href="srh.html">
+        <img src="images/srh.jpg" alt="SRH">
+      </a>
+      <a href="kkr.html">
+        <img src="images/kkr.jpg" alt="KKR">
+      </a>
+      <a href="dc.html">
+        <img src="images/dc.jpg" alt="DC">
+      </a>
+      <a href="ls.html">
+        <img src="images/ls.jpg" alt="LSG">
+      </a>
+      <a href="gt.html">
+        <img src="images/gt.jpg" alt="GT">
+      </a>
+      <a href="pk.html">
+        <img src="images/pk.jpg" alt="PBKS">
+      </a>
+      <a href="rcb.html">
+        <img src="images/rcb.jpg" alt="rcb">
+      </a>
+      
+    </a>
+    </div>
+  </div>
+
+</body>
+</html>

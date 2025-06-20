@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPL Introduction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('ipl.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            background-color: rgb(238, 238, 235);
+            color: rgb(68, 7, 7);
+        }
+        h1:hover{
+            background-color:rgb(197, 199, 201);
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            margin:10px;
+        }
+        
+        .team-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           
+        }
+
+        .team-images img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .team-images img:hover {
+            transform: scale(1.1);
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to IPL 2025</h1>
+    
+        <p><span style="background-color:rgb(117, 200, 160); color:black;margin:10px;">the excitement of cricket with your favorite teams!</span></p>
+
+        <div class="team-images">
+            <a href="iplteams.html">
+            <img src="images/iplteams.jpg" >
+            
+            </a>
+        </div>
+        
+    </div>
+
+</body>
+</html>
